@@ -49,7 +49,7 @@ namespace GS1128Helper_TEST
             {
                 GS1128Encoder code128 = new GS1128Encoder(EncodeList);
                 code128.DataDisplay = true;
-                textBoxEncode.Text = code128.ToString();
+                richTextBoxEncode.Text = code128.ToString();
                 System.Drawing.Image img = code128.GetBarCodeImage();
                 pictureBox1.Image = img;
             }
@@ -57,7 +57,7 @@ namespace GS1128Helper_TEST
 
         private void buttonGetValue_Click(object sender, EventArgs e)
         {
-            GS1128Decoder decoder = new GS1128Decoder(textBoxEncode.Text);
+            GS1128Decoder decoder = new GS1128Decoder(richTextBoxEncode.Text);
             if (decoder.IsValidBarcode)
             {
                 int AI = Convert.ToInt32(comboBoxDecode.Text.Split('|')[0]);

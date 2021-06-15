@@ -34,7 +34,6 @@ namespace GS1128Helper_TEST
             this.richTextBoxList = new System.Windows.Forms.RichTextBox();
             this.buttonAdd = new System.Windows.Forms.Button();
             this.buttonEncode = new System.Windows.Forms.Button();
-            this.textBoxEncode = new System.Windows.Forms.TextBox();
             this.buttonGetValue = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.comboBoxDecode = new System.Windows.Forms.ComboBox();
@@ -42,6 +41,7 @@ namespace GS1128Helper_TEST
             this.groupBoxEncode = new System.Windows.Forms.GroupBox();
             this.buttonClear = new System.Windows.Forms.Button();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.richTextBoxEncode = new System.Windows.Forms.RichTextBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.groupBoxEncode.SuspendLayout();
             this.groupBox1.SuspendLayout();
@@ -91,13 +91,6 @@ namespace GS1128Helper_TEST
             this.buttonEncode.Text = "生成条码";
             this.buttonEncode.UseVisualStyleBackColor = true;
             this.buttonEncode.Click += new System.EventHandler(this.buttonEncode_Click);
-            // 
-            // textBoxEncode
-            // 
-            this.textBoxEncode.Location = new System.Drawing.Point(6, 19);
-            this.textBoxEncode.Name = "textBoxEncode";
-            this.textBoxEncode.Size = new System.Drawing.Size(485, 20);
-            this.textBoxEncode.TabIndex = 5;
             // 
             // buttonGetValue
             // 
@@ -161,7 +154,7 @@ namespace GS1128Helper_TEST
             // 
             // groupBox1
             // 
-            this.groupBox1.Controls.Add(this.textBoxEncode);
+            this.groupBox1.Controls.Add(this.richTextBoxEncode);
             this.groupBox1.Controls.Add(this.comboBoxDecode);
             this.groupBox1.Controls.Add(this.buttonGetValue);
             this.groupBox1.Controls.Add(this.textBoxDecodeValue);
@@ -171,6 +164,14 @@ namespace GS1128Helper_TEST
             this.groupBox1.TabIndex = 11;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "解码";
+            // 
+            // richTextBoxEncode
+            // 
+            this.richTextBoxEncode.Location = new System.Drawing.Point(6, 13);
+            this.richTextBoxEncode.Name = "richTextBoxEncode";
+            this.richTextBoxEncode.Size = new System.Drawing.Size(479, 26);
+            this.richTextBoxEncode.TabIndex = 10;
+            this.richTextBoxEncode.Text = "";
             // 
             // FormMain
             // 
@@ -197,7 +198,6 @@ namespace GS1128Helper_TEST
         private System.Windows.Forms.RichTextBox richTextBoxList;
         private System.Windows.Forms.Button buttonAdd;
         private System.Windows.Forms.Button buttonEncode;
-        private System.Windows.Forms.TextBox textBoxEncode;
         private System.Windows.Forms.Button buttonGetValue;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.ComboBox comboBoxDecode;
@@ -205,6 +205,7 @@ namespace GS1128Helper_TEST
         private System.Windows.Forms.GroupBox groupBoxEncode;
         private System.Windows.Forms.Button buttonClear;
         private System.Windows.Forms.GroupBox groupBox1;
+        private System.Windows.Forms.RichTextBox richTextBoxEncode;
     }
 }
 
