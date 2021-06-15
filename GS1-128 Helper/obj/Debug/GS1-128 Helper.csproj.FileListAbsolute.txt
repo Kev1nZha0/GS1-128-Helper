@@ -1,0 +1,5 @@
+D:\repos\GS1-128 Helper\GS1-128 Helper\bin\Debug\GS1-128 Helper.dll
+D:\repos\GS1-128 Helper\GS1-128 Helper\bin\Debug\GS1-128 Helper.pdb
+D:\repos\GS1-128 Helper\GS1-128 Helper\obj\Debug\GS1-128 Helper.csproj.CoreCompileInputs.cache
+D:\repos\GS1-128 Helper\GS1-128 Helper\obj\Debug\GS1-128 Helper.dll
+D:\repos\GS1-128 Helper\GS1-128 Helper\obj\Debug\GS1-128 Helper.pdb

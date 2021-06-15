@@ -1,0 +1,13 @@
+D:\repos\GS1-128 Helper\GS1128Helper TEST\bin\Debug\GS1128Helper TEST.exe.config
+D:\repos\GS1-128 Helper\GS1128Helper TEST\bin\Debug\GS1128Helper TEST.exe
+D:\repos\GS1-128 Helper\GS1128Helper TEST\bin\Debug\GS1128Helper TEST.pdb
+D:\repos\GS1-128 Helper\GS1128Helper TEST\bin\Debug\GS1-128 Helper.dll
+D:\repos\GS1-128 Helper\GS1128Helper TEST\bin\Debug\GS1-128 Helper.pdb
+D:\repos\GS1-128 Helper\GS1128Helper TEST\obj\Debug\GS1128Helper TEST.csproj.AssemblyReference.cache
+D:\repos\GS1-128 Helper\GS1128Helper TEST\obj\Debug\GS1128Helper_TEST.FormMain.resources
+D:\repos\GS1-128 Helper\GS1128Helper TEST\obj\Debug\GS1128Helper_TEST.Properties.Resources.resources
+D:\repos\GS1-128 Helper\GS1128Helper TEST\obj\Debug\GS1128Helper TEST.csproj.GenerateResource.cache
+D:\repos\GS1-128 Helper\GS1128Helper TEST\obj\Debug\GS1128Helper TEST.csproj.CoreCompileInputs.cache
+D:\repos\GS1-128 Helper\GS1128Helper TEST\obj\Debug\GS1128Helper TEST.csproj.CopyComplete
+D:\repos\GS1-128 Helper\GS1128Helper TEST\obj\Debug\GS1128Helper TEST.exe
+D:\repos\GS1-128 Helper\GS1128Helper TEST\obj\Debug\GS1128Helper TEST.pdb
